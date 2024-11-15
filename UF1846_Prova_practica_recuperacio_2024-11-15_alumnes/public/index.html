@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TecnoTiendas</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Tecno Tiendas</h1>
+      <h2>Productos de tecnología avanzada</h2>
+    </header>
+
+    <main>
+      <p>Opciones</p>
+      <ul>
+        <li>
+          <span
+            ><a
+              href="http://localhost:4000/api"
+              target="_blank"
+              rel="noopener noreferrer"
+              >http://localhost:4000/api</a
+            >
+          </span>
+          : Devuelve la lista completa de clientes ordenados alfabéticamente por
+          apellido
+        </li>
+        <li>
+          <span
+            ><a
+              href="http://localhost:4000/api/tienda/Hospitalet"
+              target="_blank"
+              rel="noopener noreferrer"
+              >http://localhost:4000/api/tienda/[ciudad de la tienda]</a
+            >
+          </span>
+          : Devuelve la lista de las compras realizadas en la tienda indicada.
+          Por ejemplo :
+          <span>http://localhost:4000/api/tienda/Hospitalet</span>
+        </li>
+        <li>
+          <span
+            ><a
+              href="http://localhost:4000/api/apellido_nombre/Dumas/Alexandre"
+              target="_blank"
+              rel="noopener noreferrer"
+            >http://localhost:4000/api/apellido_nombre/[apellido del cliente]/[nombre del
+            cliente]
+          </a>
+            </span
+          >
+          : Devuelve la lista de los clientes con el nombre y apellido indicado.
+          Por ejemplo :
+          <span>http://localhost:4000/api/apellido_nombre/Dumas/Alexandre</span>
+        </li>
+        <li>
+          <span
+            > <a
+              href="http://localhost:4000/api/apellido/Asimov?nombre=Is"
+              target="_blank"
+              rel="noopener noreferrer"
+            >http://localhost:4000/api/apellido/apellido?nombre=[primeras letras del nombre del
+            cliente]
+          </a>
+          </span
+          >
+          : Devuelve la lista de los clientes con el apellido y primeras letras
+          del nombre indicado. Por ejemplo :
+          <span>http://localhost:4000/api/nombre/Asimov?nombre=Is</span>
+          <p>
+            Si no se introduce la búsqueda del nombre se mostrar el siguiente
+            mensaje: <span>"Falta el parámetro nombre"</span> 
+          </p>
+        </li>
+        <li>
+          <span><a
+              href="http://localhost:4000/api/marca/Samsung"
+              target="_blank"
+              rel="noopener noreferrer"
+            >http://localhost:4000/api/marca/[nombre de la marca]
+          </a>
+          </span>
+          : Devuelve la lista de los productos comprados de esa marca. Por
+          ejemplo :
+          <span>http://localhost:4000/api/marca/Samsung</span>
+        </li>
+      </ul>
+    </main>
+  </body>
+</html>

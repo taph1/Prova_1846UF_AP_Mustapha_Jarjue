@@ -1,0 +1,136 @@
+[
+  {
+    "apellido_cliente": "Dumas",
+    "nombre_cliente": "Alexandre",
+    "tienda": "Barcelona",
+    "compras": [
+      {
+        "tipo": "Ordenador",
+        "nombre_producto": "15-fd0045ns",
+        "precio": 699,
+        "marca": "HP"
+      },
+      {
+        "tipo": "Monitor",
+        "nombre_producto": "RD280U",
+        "precio": 599,
+        "marca": "BenQ"
+      },
+      {
+        "tipo": "SSD",
+        "nombre_producto": "980 Pro",
+        "precio": 187,
+        "marca": "Samsung"
+      },
+      {
+        "tipo": "Movil",
+        "nombre_producto": "Galaxy s24 256GB",
+        "precio": 688,
+        "marca": "Samsung"
+      }
+    ]
+  },
+  {
+    "apellido_cliente": "Asimov",
+    "nombre_cliente": "Isaac",
+    "tienda": "Badalona",
+    "compras": [
+      {
+        "tipo": "Monitor",
+        "nombre_producto": "RD240Q",
+        "precio": 499,
+        "marca": "BenQ"
+      }
+    ]
+  },
+  {
+    "apellido_cliente": "Lem",
+    "nombre_cliente": "Stanislaw",
+    "tienda": "Badalona",
+    "compras": [
+      {
+        "tipo": "Monitor",
+        "nombre_producto": "S2722QC",
+        "precio": 379,
+        "marca": "Dell"
+      },
+      {
+        "tipo": "Movil",
+        "nombre_producto": "Galaxy s24 256GB",
+        "precio": 688,
+        "marca": "Samsung"
+      }
+    ]
+  },
+  {
+    "apellido_cliente": "K. Le Guin",
+    "nombre_cliente": "Ursula",
+    "tienda": "Hospitalet",
+    "compras": [
+      {
+        "tipo": "Monitor",
+        "nombre_producto": "S2722QC",
+        "precio": 379,
+        "marca": "Dell"
+      },
+      {
+        "tipo": "SSD",
+        "nombre_producto": "980 Pro",
+        "precio": 187,
+        "marca": "Samsung"
+      }
+    ]
+  },
+  {
+    "apellido_cliente": "Shelley",
+    "nombre_cliente": "Mary",
+    "tienda": "Barcelona",
+    "compras": [
+      {
+        "tipo": "Movil",
+        "nombre_producto": "Galaxy s24 256GB",
+        "precio": 688,
+        "marca": "Samsung"
+      }
+    ]
+  },
+  {
+    "apellido_cliente": "Orwell",
+    "nombre_cliente": "George",
+    "tienda": "Barcelona",
+    "compras": [
+      {
+        "tipo": "SSD",
+        "nombre_producto": "980 Pro",
+        "precio": 187,
+        "marca": "Samsung"
+      }
+    ]
+  },
+  {
+    "apellido_cliente": "Swift",
+    "nombre_cliente": "Jonathan",
+    "tienda": "Hospitalet",
+    "compras": [
+      {
+        "tipo": "Ordenador",
+        "nombre_producto": "15-fd0045ns",
+        "precio": 699,
+        "marca": "HP"
+      }
+    ]
+  },
+    {
+      "apellido_cliente": "Beard",
+      "nombre_cliente": "Mary",
+      "tienda": "Badalona",
+      "compras": [
+        {
+          "tipo": "Ordenador",
+          "nombre_producto": "15-fd0045ns",
+          "precio": 699,
+          "marca": "HP"
+        }
+      ]
+    }
+]
